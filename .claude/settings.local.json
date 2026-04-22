@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/thalisson/Downloads/*.png /Users/thalisson/Downloads/*.jpg /Users/thalisson/Downloads/*.jpeg /Users/thalisson/Downloads/*.webp)",
+      "Bash(ls /Users/thalisson/Downloads/WhatsApp*.jpeg)",
+      "Bash(find /Users/thalisson -maxdepth 4 -name *.png -newer /Users/thalisson/Downloads/logolinear.png)",
+      "Bash(find /Users/thalisson -maxdepth 4 \\\\\\(-name *.png -o -name *.jpg -o -name *.jpeg \\\\\\))",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(find /Users/thalisson -maxdepth 4 \\\\\\(-name *.png -o -name *.jpg -o -name *.jpeg \\\\\\) -newer '/Users/thalisson/Downloads/REUNIÃO DE ONBOARDING - Guilherme [MA REFORMAS] - 2026_03_19 18_11 GMT-03_00 - Anotações do Gemini.pdf')",
+      "Bash(sips -s format png \"/Users/thalisson/Downloads/A12646F0-825B-44BA-824D-F328F8E55541.jpg\" --out \"/tmp/logo-ma-temp.png\")",
+      "Bash(sips -s format webp \"/tmp/logo-ma-temp.png\" --out \"/Users/thalisson/LP MA reformas/logo-ma.webp\")",
+      "Bash(cp \"/Users/thalisson/Downloads/A12646F0-825B-44BA-824D-F328F8E55541.jpg\" \"/Users/thalisson/LP MA reformas/logo-ma.jpg\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/thalisson/LP MA reformas/logo-ma.jpg\")",
+      "Bash(sips --cropToHeightWidth 900 1000 --cropOffset 250 160 \"/Users/thalisson/LP MA reformas/logo-ma.jpg\" --out \"/Users/thalisson/LP MA reformas/logo-ma-cropped.jpg\")",
+      "Bash(sips --cropToHeightWidth 1200 1100 --cropOffset 350 110 \"/Users/thalisson/LP MA reformas/logo-ma.jpg\" --out \"/Users/thalisson/LP MA reformas/logo-ma-cropped.jpg\")",
+      "Bash(unzip -o \"/Users/thalisson/Downloads/MAreformalogo.zip\" -d \"/Users/thalisson/LP MA reformas/\")",
+      "Bash(python3 -c \"from PIL import Image; print\\(''Pillow OK''\\)\")",
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "Bash(find /Users/thalisson -maxdepth 4 -name apartamentos* -o -name cozinha*)",
+      "Bash(find /Users/thalisson -maxdepth 4 \\\\\\(-name *.jpg -o -name *.jpeg -o -name *.png \\\\\\) -newer '/Users/thalisson/LP MA reformas/logo-ma-white.png')",
+      "Bash(find /Users/thalisson/Downloads -maxdepth 1 \\\\\\(-name *.jpg -o -name *.jpeg -o -name *.HEIC -o -name *.png \\\\\\) -newer '/Users/thalisson/LP MA reformas/gerenciamento.webp')",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\(r'C:/Users/Pedro Rafachine/Documents/M2Black/MA Reformas/logo-ma-white.png'\\); print\\(img.size, img.mode\\)\")",
+      "Bash(python)"
+    ]
+  }
+}
